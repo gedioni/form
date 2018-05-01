@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="title">Gedion Edem</div>
+            <div class="links">
+                <span><a href="#">Home</a></span>
+                <span><a href="jobs.html">My Jobs</a></span>
+                <span><a href="about.html">About Me</a></span>
+            </div>
+            
+        </headers>
+    </div>
+    <div class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="jobs.html">My Jobs</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+    </div>
+    <div class="main">
+        <form method="POST" action="http://fvi-grad.com:4004/email">
+            <!-- <label for="dest_email">Email</label> -->
+            <input type="text" name="dest_email" placeholder="Email Here">
+            <!-- <label for="full_name">Full Names</label> -->
+            <input type="text" name="full_name" placeholder="Full Name">
+            <input type="text" name="phone_number" placeholder="Phone Number">
+            <input type="date" name="phone_number" placeholder="">
+            <input type="text" name="time" placeholder="time">
+            <input type="text" name="subjet" placeholder="Subject">
+            <textarea name="mesage" cols="30" rows="10" placeholder="Enter Message Here"></textarea>
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+    <footer>
+        Gedion Edem: Web Developer at Techlaunch:(but i really do everything) github: Gedioni
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
